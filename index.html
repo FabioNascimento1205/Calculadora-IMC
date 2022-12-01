@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora IMC v1.0</title>
+</head>
+<body>
+    <main id="container">
+        <header id="titulo">
+            <h1>Calculadora IMC</h1>
+        </header>
+
+        <section>
+            <div id="dados">
+                <p>
+                    Digite sua Altura:
+                    <input type="number" id="altura" min="0" placeholder="ex: 173"> cm
+                </p>
+
+                <p>
+                    Digite seu peso:
+                    <input type="number" id="peso" min="0" placeholder="ex: 84"> kg
+                </p>
+
+                <p>
+                    <input onclick="calcular()" type="button" value="Calcular" id="botao">
+                </p>
+            </div>
+
+            <div id="resp">
+                Preencha os dados acima!
+            </div>
+            
+        </section>
+
+        <footer>
+            &copy;Fabio Nascimento LTDA. 2022
+        </footer>
+    </main>
+
+    <script src="JS/app.js"></script>
+</body>
+</html>

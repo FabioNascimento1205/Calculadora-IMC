@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(250, 200, 91);
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+/* Edição geral do main */
+#container {
+    border: 1px solid black;
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 6px 5px 10px;
+}
+
+#titulo {
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+#dados p{
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#dados #altura, #peso {
+    width: 80px;
+    height: 25px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#botao {
+    border: none;
+    width: 110px;
+    height: 40px;
+    font-size: 1em;
+    text-transform: uppercase;
+    background: rgb(250, 200, 91);
+    color: black;
+}
+
+#botao:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+#resp {
+    width: 380px;
+    margin: 0 auto;
+    height: 60px;
+    padding-top: 10px;
+}
+
+footer {
+    padding: 10px;
+}
